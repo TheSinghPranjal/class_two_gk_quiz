@@ -1,0 +1,22 @@
+[
+  {"id":"math_001","sectionId":"mathematics","question":"What is 5 + 7?","options":["10","11","12","13"],"correctIndex":2,"funFact":"5 + 7 = 12","difficulty":1,"source":"generated"},
+  {"id":"math_002","sectionId":"mathematics","question":"What is 8 + 6?","options":["12","13","14","15"],"correctIndex":2,"funFact":"8 + 6 = 14","difficulty":1,"source":"generated"},
+  {"id":"math_003","sectionId":"mathematics","question":"What is 10 − 4?","options":["4","5","6","7"],"correctIndex":2,"funFact":"10 − 4 = 6","difficulty":1,"source":"generated"},
+  {"id":"math_004","sectionId":"mathematics","question":"What is 20 − 5?","options":["10","12","15","17"],"correctIndex":2,"funFact":"20 − 5 = 15","difficulty":1,"source":"generated"},
+  {"id":"math_005","sectionId":"mathematics","question":"How many sides does a triangle have?","options":["2","3","4","5"],"correctIndex":1,"funFact":"A triangle has 3 straight sides.","difficulty":1,"source":"generated"},
+  {"id":"math_006","sectionId":"mathematics","question":"What is half of 20?","options":["5","8","10","15"],"correctIndex":2,"funFact":"Half of 20 is 10.","difficulty":1,"source":"generated"},
+  {"id":"math_007","sectionId":"mathematics","question":"How many hours are there in a day?","options":["12","20","24","30"],"correctIndex":2,"funFact":"There are 24 hours in one day.","difficulty":1,"source":"generated"},
+  {"id":"math_008","sectionId":"mathematics","question":"How many minutes are there in an hour?","options":["30","45","60","100"],"correctIndex":2,"funFact":"There are 60 minutes in an hour.","difficulty":1,"source":"generated"},
+  {"id":"math_009","sectionId":"mathematics","question":"What is the smallest two-digit number?","options":["0","1","9","10"],"correctIndex":3,"funFact":"10 is the smallest number with two digits.","difficulty":1,"source":"generated"},
+  {"id":"math_010","sectionId":"mathematics","question":"What is 7 multiplied by 2?","options":["9","12","14","16"],"correctIndex":2,"funFact":"7 × 2 = 14","difficulty":1,"source":"generated"},
+  {"id":"math_011","sectionId":"mathematics","question":"What is 9 + 1?","options":["8","9","10","11"],"correctIndex":2,"funFact":"9 + 1 = 10","difficulty":1,"source":"generated"},
+  {"id":"math_012","sectionId":"mathematics","question":"What is 4 × 2?","options":["6","7","8","9"],"correctIndex":2,"funFact":"4 × 2 = 8","difficulty":1,"source":"generated"},
+  {"id":"math_013","sectionId":"mathematics","question":"What is 12 ÷ 2?","options":["4","5","6","7"],"correctIndex":2,"funFact":"12 ÷ 2 = 6","difficulty":1,"source":"generated"},
+  {"id":"math_014","sectionId":"mathematics","question":"How many sides does a square have?","options":["3","4","5","6"],"correctIndex":1,"funFact":"A square has 4 equal sides.","difficulty":1,"source":"generated"},
+  {"id":"math_015","sectionId":"mathematics","question":"How many sides does a hexagon have?","options":["4","5","6","7"],"correctIndex":2,"funFact":"A hexagon has 6 sides.","difficulty":1,"source":"generated"},
+  {"id":"math_016","sectionId":"mathematics","question":"What number comes right after 199?","options":["198","199","200","201"],"correctIndex":2,"funFact":"After 199 comes 200.","difficulty":1,"source":"generated"},
+  {"id":"math_017","sectionId":"mathematics","question":"How many paise make 1 rupee?","options":["10","50","100","1000"],"correctIndex":2,"funFact":"100 paise make 1 rupee.","difficulty":1,"source":"generated"},
+  {"id":"math_018","sectionId":"mathematics","question":"What is double of 15?","options":["25","28","30","32"],"correctIndex":2,"funFact":"Double of 15 is 30.","difficulty":1,"source":"generated"},
+  {"id":"math_019","sectionId":"mathematics","question":"Which number is greater: 89 or 98?","options":["89","98","Both are equal","Cannot say"],"correctIndex":1,"funFact":"98 is greater than 89.","difficulty":1,"source":"generated"},
+  {"id":"math_020","sectionId":"mathematics","question":"What is half of 16?","options":["4","6","8","10"],"correctIndex":2,"funFact":"Half of 16 is 8.","difficulty":1,"source":"generated"}
+]
