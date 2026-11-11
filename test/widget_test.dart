@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:class_two_qk_quiz/core/providers/shared_preferences_provider.dart';
 import 'package:class_two_qk_quiz/features/home/presentation/home_screen.dart';
+import 'package:class_two_qk_quiz/features/splash/presentation/splash_screen.dart';
 import 'package:class_two_qk_quiz/main.dart';
 import 'package:class_two_qk_quiz/repositories/question_repository.dart';
 
@@ -15,7 +16,9 @@ void main() {
     questions = await QuestionRepository.load();
   });
 
-  testWidgets('Home screen renders the Rapid Fire banner and sections', (tester) async {
+  testWidgets('Home screen renders the Rapid Fire banner and sections', (
+    tester,
+  ) async {
     SharedPreferences.setMockInitialValues({});
     final prefs = await SharedPreferences.getInstance();
 
@@ -28,8 +31,11 @@ void main() {
         child: const QuickQuizApp(),
       ),
     );
-    // The home background animates forever, so pump a fixed time instead of
-    // waiting for it to settle.
+    // The splash holds, then fades to home. The home background animates
+    // forever, so pump a fixed time instead of waiting for it to settle.
+    await tester.pump(SplashScreen.displayDuration);
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
     await tester.pump(const Duration(seconds: 1));
 
     expect(find.byType(HomeScreen), findsOneWidget);
