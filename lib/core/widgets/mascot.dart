@@ -43,7 +43,18 @@ class Mascot extends StatelessWidget {
           ),
         ],
       ),
-      child: Text(_emoji, style: TextStyle(fontSize: size * 0.6)),
+      child: Text(
+        _emoji,
+        style: TextStyle(
+          fontSize: size * 0.6,
+          // The owl glyph lives in the platform emoji font, not the UI font.
+          fontFamilyFallback: const [
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Noto Color Emoji',
+          ],
+        ),
+      ),
     );
 
     Widget animated = circle

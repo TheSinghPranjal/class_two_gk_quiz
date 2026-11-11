@@ -69,6 +69,7 @@ flutter:
     - assets/questions/
     - assets/images/quiz/
     - assets/images/section_intro/
+    - assets/branding/lazy_bear_club.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
